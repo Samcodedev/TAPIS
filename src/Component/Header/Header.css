@@ -1,0 +1,198 @@
+.Header{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+.sub-header{
+    width: 85%;
+    display: flex;
+}
+
+.content-div{
+    width: 55%;
+    padding-right: 10px;
+}
+.content-div h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #000000;
+    text-align: left;
+    margin-block-start: 10rem;
+    margin-block-end: 15px;
+    line-height: 110%;
+}
+.content-div .town{
+    display: flex;
+}
+.content-div .town img{
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+.content-div .town p{
+    text-align: left;
+    margin-block-start: auto;
+    margin-block-end: auto;
+}
+.content-div p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    margin-block-end: 20px;
+}
+.content-div p span{
+    font-weight: 700;
+}
+.content-div iframe{
+    width: 90%;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+    float: left;
+}
+
+
+
+.form-div form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+    /* gap: 60px; */
+    width: 350px;
+    /* height: 1181px; */
+    background: #555555;
+    border-radius: 20px;
+}
+form h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+form p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+form label{
+    width: 100%;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+form input{
+    width: 97%;
+    height: 45px;
+    border: 2px solid #999999;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+form h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    margin-block-start: 10px;
+    margin-block-end: 0;
+    color: #FFFFFF;
+}
+form .submit{
+    background-color: #999999;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 10px 30px 10px 30px;
+    height: auto;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .content-div h1{
+        margin-block-start: 5rem;
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 980px) {
+    .content-div h1{
+        margin-block-start: 5rem;
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .sub-header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-div h1{
+        margin-block-start: 2rem;
+        font-size: 3.5rem;
+    }
+    .content-div{
+        width: 90%;
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-div h1{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .content-div p{
+        text-align: center;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .sub-header{
+        width: 98%;
+    }
+    .content-div h1{
+        margin-block-start: 2rem;
+        font-size: 3rem;
+    }
+    form .submit{
+        font-size: 20px;
+    }
+    .content-div p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 564px) {
+    .form-div form{
+        width: 300px;
+    }
+    .content-div h1{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 410px) {
+    .form-div form{
+        width: 90vw;
+        position: relative;
+        margin: auto;
+    }
+    .sub-header{
+        width: 90vw;
+        align-items: center;
+    }
+}
