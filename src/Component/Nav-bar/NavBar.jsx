@@ -49,10 +49,10 @@ function NavBar(){
                 </div>
                 <nav id='nav'>
                     <ul>
-                        <a href="#"><li>Travel</li></a>
-                        <a href="#"><li>About</li></a>
-                        <a href="#"><li>Service</li></a>
-                        <a href="#"><li>Fares</li></a>
+                        <li>Travel</li>
+                        <li>About</li>
+                        <li>Service</li>
+                        <li>Fares</li>
                     </ul>
                     <div className="bookNow">
                         <button>Book Now</button>
