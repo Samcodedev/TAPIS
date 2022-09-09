@@ -14,10 +14,10 @@ function Footer(){
                     <img src={tap} alt="" />
                     <p>2022 © Touch and pay. All Rights Reserved.</p>
                     <div className="social-icons">
-                        <a href=""><img src={insta} alt="" /></a>
-                        <a href=""><img src={drib} alt="" /></a>
-                        <a href=""><img src={twit} alt="" /></a>
-                        <a href=""><img src={you} alt="" /></a>
+                        <a href="#"><img src={insta} alt="" /></a>
+                        <a href="#"><img src={drib} alt="" /></a>
+                        <a href="#"><img src={twit} alt="" /></a>
+                        <a href="#"><img src={you} alt="" /></a>
                     </div>
                 </div>
                 <div className="organization">
